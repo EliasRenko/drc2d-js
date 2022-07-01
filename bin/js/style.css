@@ -1,0 +1,23 @@
+body {
+    font-family: 'verdana';
+    font-size: 12px;
+}
+
+.menustrip {
+    background-color: #696a6a;
+    overflow: hidden;
+    padding-left: 8px;
+}
+
+.menustrip-button {
+    color: white;
+    display: inline;
+    padding: 8px 8px 8px 8px;
+    float: left;
+    user-select: none;
+    text-align: center;
+}
+
+.menustrip-button:hover {
+    background-color: #9badb7;
+}
