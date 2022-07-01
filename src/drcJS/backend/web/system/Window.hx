@@ -1,9 +1,8 @@
-package drcJS.system;
+package drc.backend.web.system;
 
 import drc.types.WindowEventType;
+import drc.core.EventDispacher;
 import drc.types.WindowEvent;
-
-import js.html.CanvasElement;
 
 #if js
 
@@ -13,7 +12,7 @@ class Window {
 	
 	public var fullscreen(get, set):Bool;
 
-	public var innerData:CanvasElement;
+	public var innerData:js.html.CanvasElement;
 	
 	public var height(get, null):Int;
 
@@ -34,16 +33,8 @@ class Window {
 	/**  **/
 
 	public function new() {
-
-		innerData = js.Browser.document.createCanvasElement();
-
-        innerData.id = "glCanvas";
-
-        innerData.className = "glCanvas";
-
-        innerData.width = 640;
-
-        innerData.height = 480;
+	
+		//onEvent = new EventDispacher();
 	}
 	
 	public function showDialog(title:String, message:String):Void {
