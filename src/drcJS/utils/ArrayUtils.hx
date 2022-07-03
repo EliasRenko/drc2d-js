@@ -1,4 +1,4 @@
-package drc.utils;
+package drcJS.utils;
 
 /**
  * A set of functions for array manipulation.

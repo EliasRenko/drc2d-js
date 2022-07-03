@@ -1,6 +1,6 @@
-package drc.part;
+package drcJS.part;
 
-import drc.part.ObjectList;
+import drcJS.part.ObjectList;
 
 class ObjectGroup<T:Object> extends ObjectList<T>
 {

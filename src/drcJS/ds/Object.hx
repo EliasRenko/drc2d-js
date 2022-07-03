@@ -1,6 +1,6 @@
-package drc.ds;
+package drcJS.ds;
 
-import drc.core.EventDispacher;
+import drcJS.core.EventDispacher;
 
 class Object extends EventDispacher<UInt> {
   

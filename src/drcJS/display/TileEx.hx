@@ -1,8 +1,8 @@
-package drc.display;
+package drcJS.display;
 
-import drc.display.Graphic;
-import drc.display.Tilemap;
-import drc.display.Region;
+import drcJS.display.Graphic;
+import drcJS.display.Tilemap;
+import drcJS.display.Region;
 
 class TileEx extends Graphic {
 
@@ -280,7 +280,7 @@ class TileEx extends Graphic {
             
             //** Throw error!
             
-            //DrcConsole.showTrace("Class: " + className + " has not been assigned a tilemap parent.");
+            //drcJSConsole.showTrace("Class: " + className + " has not been assigned a tilemap parent.");
             
             //** Return.
             

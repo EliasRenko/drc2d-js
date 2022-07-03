@@ -1,4 +1,4 @@
-package drc.macros;
+package drcJS.macros;
 
 import haxe.io.Path;
 import haxe.macro.Context;

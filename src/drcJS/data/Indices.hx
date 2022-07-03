@@ -1,4 +1,4 @@
-package drc.data;
+package drcJS.data;
 
 @:forward(length, pop, push)
 abstract Indices(Array<UInt>) from Array<UInt> to Array<UInt> {

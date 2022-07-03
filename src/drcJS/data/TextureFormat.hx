@@ -1,4 +1,4 @@
-package drc.data;
+package drcJS.data;
 
 @:enum abstract TextureFormat(Null<Int>) from Int to Int {
 

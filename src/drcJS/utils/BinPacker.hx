@@ -1,4 +1,4 @@
-package drc.utils;
+package drcJS.utils;
 
 enum GuillotineFreeRectChoiceHeuristic {
 	BestAreaFit;

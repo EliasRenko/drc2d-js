@@ -1,4 +1,4 @@
-package drc.math;
+package drcJS.math;
 
 /**
 	`Vector4` is a vector suitable for three-dimensional

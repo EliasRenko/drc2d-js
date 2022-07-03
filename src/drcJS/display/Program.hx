@@ -1,6 +1,6 @@
-package drc.display;
+package drcJS.display;
 
-import drc.core.GL.GLProgram;
+import drcJS.core.GL.GLProgram;
 
 class Program 
 {

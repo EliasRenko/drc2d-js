@@ -1,9 +1,9 @@
-package drc.backend.native.input;
+package drcJS.backend.native.input;
 
 import haxe.ds.Vector;
-import drc.input.Device;
+import drcJS.input.Device;
 
-class Keyboard extends Device implements drc.input.Keyboard {
+class Keyboard extends Device implements drcJS.input.Keyboard {
 
     // ** Publics.
 

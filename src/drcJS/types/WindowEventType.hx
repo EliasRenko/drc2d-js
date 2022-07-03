@@ -1,4 +1,4 @@
-package drc.types;
+package drcJS.types;
 
 @:enum abstract WindowEventType(UInt) from UInt to UInt {
 

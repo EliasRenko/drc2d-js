@@ -1,6 +1,6 @@
-package drc.ds;
+package drcJS.ds;
 
-import drc.ds.ListIterator;
+import drcJS.ds.ListIterator;
 
 class LinkedList<T> {
 

@@ -1,7 +1,7 @@
-package drc.part;
+package drcJS.part;
 
 import haxe.Constraints.Function;
-import drc.part.Object;
+import drcJS.part.Object;
 
 #if debug // ------
 
@@ -24,7 +24,7 @@ class Group<T:Object> extends List<T>
 	 * Pushes an object into the group. Does not work if the group is fixed.
 	 * 
 	 * @param	object The object to be added.
-	 * @return	DrcObject
+	 * @return	drcJSObject
 	 */
 	override public function add(object:T):T 
 	{
@@ -83,7 +83,7 @@ class Group<T:Object> extends List<T>
 	 * 
 	 * @param	index The index of the position.
 	 * @param	object The object to be added.
-	 * @return	DrcObject
+	 * @return	drcJSObject
 	 */
 	override public function addAt(index:Int, object:T):T 
 	{
@@ -206,7 +206,7 @@ class Group<T:Object> extends List<T>
 				
 				//** Throw an error!
 				
-				//DrcConsole.showTrace("Class: " + className + " cannot access field " + field + ".");
+				//drcJSConsole.showTrace("Class: " + className + " cannot access field " + field + ".");
 				
 				//** Return.
 				

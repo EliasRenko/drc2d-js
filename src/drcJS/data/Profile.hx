@@ -1,9 +1,9 @@
-package drc.data;
+package drcJS.data;
 
-import drc.display.Attribute;
-import drc.display.Program;
-import drc.display.Uniform;
-import drc.core.GL;
+import drcJS.display.Attribute;
+import drcJS.display.Program;
+import drcJS.display.Uniform;
+import drcJS.core.GL;
 
 typedef TextureData = {
 

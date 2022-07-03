@@ -1,4 +1,4 @@
-package drc.display;
+package drcJS.display;
 
 abstract Region(Array<Int>) from Array<Int> to Array<Int> {
     

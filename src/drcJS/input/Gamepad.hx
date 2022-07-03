@@ -1,8 +1,8 @@
-package drc.input;
+package drcJS.input;
 
-import drc.core.EventDispacher;
-import drc.input.Device;
-import drc.types.GamepadInputEvent;
+import drcJS.core.EventDispacher;
+import drcJS.input.Device;
+import drcJS.types.GamepadInputEvent;
 
 
 class Gamepad extends EventDispacher<GamepadInputEvent> {

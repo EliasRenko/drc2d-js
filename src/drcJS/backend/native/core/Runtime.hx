@@ -1,22 +1,22 @@
-package drc.backend.native.core;
+package drcJS.backend.native.core;
 
 import sdl.GLContext;
-import drc.backend.native.input.Gamepad;
-import drc.system.Input;
-import drc.input.Gamepad;
-import drc.input.Mouse;
-import drc.input.Keyboard;
-//import drc.backend.native.system.Window;
-import drc.core.EventDispacher;
-import drc.core.EventDispacher;
-import drc.core.Runtime;
-import drc.debug.Log;
-import drc.types.GamepadEvent;
-import drc.types.GamepadEventType;
-import drc.system.Window;
-import drc.types.WindowEventType;
-import drc.types.GamepadInputEvent;
-import drc.utils.Common;
+import drcJS.backend.native.input.Gamepad;
+import drcJS.system.Input;
+import drcJS.input.Gamepad;
+import drcJS.input.Mouse;
+import drcJS.input.Keyboard;
+//import drcJS.backend.native.system.Window;
+import drcJS.core.EventDispacher;
+import drcJS.core.EventDispacher;
+import drcJS.core.Runtime;
+import drcJS.debug.Log;
+import drcJS.types.GamepadEvent;
+import drcJS.types.GamepadEventType;
+import drcJS.system.Window;
+import drcJS.types.WindowEventType;
+import drcJS.types.GamepadInputEvent;
+import drcJS.utils.Common;
 import glew.GLEW;
 import sdl.Event;
 import sdl.GameController;
@@ -439,7 +439,7 @@ class Runtime {
 				default:
 			}
 			
-			var windowEvent:drc.types.WindowEvent = {
+			var windowEvent:drcJS.types.WindowEvent = {
 
 				type : type,
 				

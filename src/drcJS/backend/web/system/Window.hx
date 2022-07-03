@@ -1,8 +1,8 @@
-package drc.backend.web.system;
+package drcJS.backend.web.system;
 
-import drc.types.WindowEventType;
-import drc.core.EventDispacher;
-import drc.types.WindowEvent;
+import drcJS.types.WindowEventType;
+import drcJS.core.EventDispacher;
+import drcJS.types.WindowEvent;
 
 #if js
 
@@ -16,7 +16,7 @@ class Window {
 	
 	public var height(get, null):Int;
 
-	//public var onEvent:EventDispacher<drc.system.Window>;
+	//public var onEvent:EventDispacher<drcJS.system.Window>;
 
 	//public var onEventHandler:WindowEvent -> Void;
 	

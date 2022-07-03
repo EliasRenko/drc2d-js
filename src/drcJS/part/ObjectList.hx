@@ -1,6 +1,6 @@
-package drc.part;
+package drcJS.part;
 
-import drc.types.ObjectStatus;
+import drcJS.types.ObjectStatus;
 
 class ObjectList<T:Object>
 {

@@ -1,4 +1,4 @@
-package drc.display;
+package drcJS.display;
 
 @:enum abstract UniformFormat(Null<String>) {
 

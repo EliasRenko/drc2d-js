@@ -1,4 +1,4 @@
-package drc.backend.native.utils;
+package drcJS.backend.native.utils;
 
 import haxe.io.Path;
 import sys.FileSystem;
@@ -6,15 +6,15 @@ import haxe.io.BytesInput;
 import haxe.io.BufferInput;
 import haxe.io.Input;
 import sdl.RWops;
-import drc.core.Promise;
-import drc.data.Profile;
+import drcJS.core.Promise;
+import drcJS.data.Profile;
 import haxe.Json;
 import haxe.io.UInt8Array;
 import haxe.io.Bytes;
 import sdl.SDL;
 import sys.io.File;
-import drc.format.PNG;
-import drc.data.Texture;
+import drcJS.format.PNG;
+import drcJS.data.Texture;
 
 typedef TextureData = {
 

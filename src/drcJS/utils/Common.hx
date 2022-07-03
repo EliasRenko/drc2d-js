@@ -1,15 +1,14 @@
-package drc.utils;
+package drcJS.utils;
 
-import drc.core.App;
-import drc.core.Context;
-import drc.system.Input;
-import drc.system.Window;
-import drc.display.Stage;
-import drc.utils.Resources;
+import drcJS.core.Context;
+import drcJS.system.Input;
+import drcJS.backend.web.system.Window;
+import drcJS.display.Stage;
+import drcJS.utils.Resources;
 
 class Common {
 
-	public static var app:App;
+	//public static var app:App;
 
 	public static var stage:Stage;
 

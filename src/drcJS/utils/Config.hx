@@ -1,3 +1,3 @@
-package drc.utils;
+package drcJS.utils;
 
-typedef MainApp = haxe.macro.MacroType<[drc.utils.Macros.build("Main")]>;
+typedef MainApp = haxe.macro.MacroType<[drcJS.utils.Macros.build("Main")]>;

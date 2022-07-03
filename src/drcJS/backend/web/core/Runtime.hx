@@ -1,14 +1,14 @@
-package drc.backend.web.core;
+package drcJS.backend.web.core;
 
 import js.Browser;
 import js.html.DOMRect;
 import js.html.webgl.RenderingContext;
-import drc.system.Input;
-import drc.backend.web.core.GL;
-import drc.core.EventDispacher;
-import drc.utils.Common;
-import drc.input.Keyboard;
-import drc.input.Mouse;
+import drcJS.system.Input;
+import drcJS.backend.web.core.GL;
+import drcJS.core.EventDispacher;
+import drcJS.utils.Common;
+import drcJS.input.Keyboard;
+import drcJS.input.Mouse;
 
 class Runtime {
 
@@ -36,7 +36,7 @@ class Runtime {
 
     /** @private **/ private var __name:String = 'Web';
 
-    /** @private **/ private var __window:drc.backend.web.system.Window;
+    /** @private **/ private var __window:drcJS.backend.web.system.Window;
 
     ///** @private **/ private var __event:EventDispacher<Float>;
 
@@ -110,7 +110,7 @@ class Runtime {
 
         });
 
-        attachWindow("DRC2D_cont");
+        attachWindow("drcJS2D_cont");
 
         requestLoopFrame();
     }
@@ -125,7 +125,7 @@ class Runtime {
 
     private function __initVideo():Void {
 
-        __window = new drcJS.system.Window();
+        __window = new drcJSJS.system.Window();
 
         __window.innerData = js.Browser.document.createCanvasElement();
 

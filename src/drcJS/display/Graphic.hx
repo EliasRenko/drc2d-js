@@ -1,7 +1,7 @@
-package drc.display;
+package drcJS.display;
 
-import drc.data.Vertices;
-import drc.part.Object;
+import drcJS.data.Vertices;
+import drcJS.part.Object;
 
 class Graphic extends Object {
 

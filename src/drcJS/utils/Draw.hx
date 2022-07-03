@@ -1,6 +1,6 @@
-package drc.utils;
+package drcJS.utils;
 
-import drc.display.TilemapEx;
+import drcJS.display.TilemapEx;
 
 class Draw {
 

@@ -1,7 +1,7 @@
-package drc.input;
+package drcJS.input;
 
 import haxe.ds.Vector;
-import drc.core.EventDispacher;
+import drcJS.core.EventDispacher;
 
 class Mouse extends Device<Mouse> {
 

@@ -1,4 +1,4 @@
-package drc.input;
+package drcJS.input;
 
 @:enum abstract Control(Int) from Int to Int {
 	

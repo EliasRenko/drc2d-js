@@ -1,4 +1,4 @@
-package drc.utils;
+package drcJS.utils;
 
 import haxe.macro.Expr;
 import haxe.macro.Context;
@@ -28,7 +28,7 @@ class Macros {
 
     macro public static function getMain():Expr {
 
-        var cls:Class<Dynamic> = RunTimeType.resolveClass('drc.core.App');
+        var cls:Class<Dynamic> = RunTimeType.resolveClass('drcJS.core.App');
 
         trace(RunTimeType.getClassName(cls));
 

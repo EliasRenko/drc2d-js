@@ -1,4 +1,4 @@
-package drc.types;
+package drcJS.types;
 
 typedef MouseEvent = {
 	

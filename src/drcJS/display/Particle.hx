@@ -1,4 +1,4 @@
-package drc.display;
+package drcJS.display;
 
 class Particle extends Tile {
 

@@ -1,4 +1,4 @@
-package drc.input;
+package drcJS.input;
 
 @:enum abstract MouseControl(Int) from Int to Int {
 	

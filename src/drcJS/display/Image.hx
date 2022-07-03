@@ -1,9 +1,9 @@
-package drc.display;
+package drcJS.display;
 
-import drc.data.Profile;
-import drc.data.Texture;
-import drc.display.Drawable;
-import drc.math.Vector4;
+import drcJS.data.Profile;
+import drcJS.data.Texture;
+import drcJS.display.Drawable;
+import drcJS.math.Vector4;
 
 class Image extends Drawable {
 	

@@ -1,6 +1,6 @@
-package drc.shapes;
+package drcJS.shapes;
 
-import drc.objects.Shape;
+import drcJS.objects.Shape;
 
 class Polygon extends Shape {
 

@@ -1,6 +1,6 @@
-package drc.display;
+package drcJS.display;
 
-import drc.display.Region;
+import drcJS.display.Region;
 
 class Tileset {
 

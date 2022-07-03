@@ -1,6 +1,6 @@
-package drc.debug.shapes;
+package drcJS.debug.shapes;
 
-import drc.data.Vertices;
+import drcJS.data.Vertices;
 
 class Shape {
 

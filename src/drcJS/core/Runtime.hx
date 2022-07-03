@@ -1,17 +1,17 @@
 package drcJS.core;
 
-import src.impl.IRuntime;
 import src.core.EventDispacher;
 
 import js.Browser;
 import js.html.DOMRect;
 import js.html.webgl.RenderingContext;
-import drc.system.Input;
-import drc.backend.web.core.GL;
-import drc.core.EventDispacher;
-import drc.utils.Common;
-import drc.input.Keyboard;
-import drc.input.Mouse;
+import drcJS.system.Input;
+import drcJS.backend.web.core.GL;
+import drcJS.core.EventDispacher;
+import drcJS.utils.Common;
+import drcJS.input.Keyboard;
+import drcJS.input.Mouse;
+import drcJS.backend.web.system.Window;
 
 class Runtime extends src.core.EventDispacher<Float> {
 
@@ -52,6 +52,8 @@ class Runtime extends src.core.EventDispacher<Float> {
     private var view:js.html.Window;
 
     public function new() {
+
+        super();
 
         __active = true;
 
@@ -113,7 +115,7 @@ class Runtime extends src.core.EventDispacher<Float> {
 
         });
 
-        attachWindow("DRC2D_cont");
+        attachWindow("drcJS2D_cont");
 
         requestLoopFrame();
     }
@@ -228,13 +230,6 @@ class Runtime extends src.core.EventDispacher<Float> {
 		
 		return __mouse;
 	}
-}
-
-private class Window {
-
-    public function new() {
-        
-    }
 }
 
 private class BackendKeyboard extends Keyboard {

@@ -1,4 +1,4 @@
-package drc.utils;
+package drcJS.utils;
 
 import haxe.ds.Either;
 

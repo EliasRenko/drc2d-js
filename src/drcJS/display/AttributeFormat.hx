@@ -1,4 +1,4 @@
-package drc.display;
+package drcJS.display;
 
 @:enum abstract AttributeFormat(Null<Int>) from Int to Int {
 	

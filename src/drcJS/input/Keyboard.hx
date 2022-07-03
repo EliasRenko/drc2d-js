@@ -1,9 +1,9 @@
-package drc.input;
+package drcJS.input;
 
 import haxe.ds.Vector;
-import drc.core.EventDispacher;
-import drc.types.KeyboardEvent;
-import drc.input.Device;
+import drcJS.core.EventDispacher;
+import drcJS.types.KeyboardEvent;
+import drcJS.input.Device;
 
 class Keyboard extends Device<KeyboardEvent> {
 

@@ -1,4 +1,4 @@
-package drc.format;
+package drcJS.format;
 
 import haxe.io.UInt8Array;
 import haxe.io.Bytes;

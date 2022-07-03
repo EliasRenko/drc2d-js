@@ -1,4 +1,4 @@
-package drc.data;
+package drcJS.data;
 
 @:forward(length, pop, push)
 abstract Vertices(Array<Float>) from Array<Float> to Array<Float> {

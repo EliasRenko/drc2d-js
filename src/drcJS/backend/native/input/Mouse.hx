@@ -1,8 +1,8 @@
-package drc.backend.native.input;
+package drcJS.backend.native.input;
 
 import sdl.SDL;
-import drc.input.Device;
-import drc.input.Mouse;
+import drcJS.input.Device;
+import drcJS.input.Mouse;
 import haxe.ds.Vector;
 
 class Mouse extends Device {

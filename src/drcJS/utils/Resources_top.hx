@@ -1,30 +1,30 @@
-package drc.utils;
+package drcJS.utils;
 
 import haxe.io.Path;
-import drc.core.GL;
-import drc.core.Promise;
-import drc.data.Profile;
-import drc.data.Texture;
-import drc.debug.Log;
-import drc.display.Attribute;
-import drc.display.AttributeFormat;
-import drc.display.Program;
-import drc.display.Uniform;
-import drc.display.Vertex;
+import drcJS.core.GL;
+import drcJS.core.Promise;
+import drcJS.data.Profile;
+import drcJS.data.Texture;
+import drcJS.debug.Log;
+import drcJS.display.Attribute;
+import drcJS.display.AttributeFormat;
+import drcJS.display.Program;
+import drcJS.display.Uniform;
+import drcJS.display.Vertex;
 import haxe.Json;
-import drc.core.Buffers;
-import drc.format.PNG;
+import drcJS.core.Buffers;
+import drcJS.format.PNG;
 import haxe.io.Input;
 import haxe.io.BytesInput;
 import haxe.io.Bytes;
 
 #if js
 
-typedef BackendAssets = drcJS.utils.Resources;
+typedef BackendAssets = drcJSJS.utils.Resources;
 
 #elseif cpp
 
-typedef BackendAssets = drc.backend.native.utils.Resources;
+typedef BackendAssets = drcJS.backend.native.utils.Resources;
 
 #end
 

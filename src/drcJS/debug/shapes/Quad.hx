@@ -1,6 +1,6 @@
-package drc.debug.shapes;
+package drcJS.debug.shapes;
 
-import drc.debug.shapes.Shape;
+import drcJS.debug.shapes.Shape;
 
 class Quad extends Shape {
     

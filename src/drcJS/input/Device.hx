@@ -1,6 +1,6 @@
-package drc.input;
+package drcJS.input;
 
-import drc.core.EventDispacher;
+import drcJS.core.EventDispacher;
 import haxe.ds.Vector;
 
 class Device<T> extends EventDispacher<T>{

@@ -1,6 +1,6 @@
-package drc.ds;
+package drcJS.ds;
 
-import drc.ds.Object;
+import drcJS.ds.Object;
 
 interface IListObject<T> {
 

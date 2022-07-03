@@ -1,4 +1,4 @@
-package drc.debug;
+package drcJS.debug;
 
 class DebugTilemap {
 

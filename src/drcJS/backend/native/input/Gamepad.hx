@@ -1,8 +1,8 @@
-package drc.backend.native.input;
+package drcJS.backend.native.input;
 
 import haxe.ds.Vector;
-import drc.input.Device;
-import drc.types.GamepadInputEvent;
+import drcJS.input.Device;
+import drcJS.types.GamepadInputEvent;
 //import sdl.Joystick;
 //import sdl.SDL;
 //import sdl.Haptic;

@@ -1,6 +1,6 @@
-package drc.types;
+package drcJS.types;
 
-import drc.input.Gamepad;
+import drcJS.input.Gamepad;
 
 typedef GamepadEvent = {
 

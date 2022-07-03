@@ -1,12 +1,12 @@
-package drc.system;
+package drcJS.system;
 
-import drc.input.Mouse;
-import drc.input.Keyboard;
-import drc.core.Runtime;
-import drc.types.GamepadEvent;
-import drc.core.EventDispacher;
-import drc.input.Gamepad;
-import drc.types.GamepadInputEvent;
+import drcJS.input.Mouse;
+import drcJS.input.Keyboard;
+import drcJS.core.Runtime;
+import drcJS.types.GamepadEvent;
+import drcJS.core.EventDispacher;
+import drcJS.input.Gamepad;
+import drcJS.types.GamepadInputEvent;
 
 class Input {
 

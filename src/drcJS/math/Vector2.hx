@@ -1,4 +1,4 @@
-package drc.math;
+package drcJS.math;
 
 class Vector2
 {

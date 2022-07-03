@@ -1,10 +1,8 @@
-package drc.math;
+package drcJS.math;
 
-//import drc.buffers.Float32Array;
+//import drcJS.buffers.Float32Array;
 //import haxe.io.Bytes;
-//import haxe.io.Float32Array;
-
-import drc.core.Buffers;
+import haxe.io.Float32Array;
 
 @:arrayAccess
 abstract Matrix(Float32Array) from Float32Array to Float32Array {

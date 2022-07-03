@@ -1,4 +1,4 @@
-package drc.display;
+package drcJS.display;
 
 @:enum abstract TextAlign(UInt) from UInt to UInt {
 

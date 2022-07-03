@@ -1,13 +1,13 @@
-package drc.display;
+package drcJS.display;
 
-import drc.core.Buffers;
-import drc.math.Matrix;
-import drc.core.Context;
-import drc.display.Drawable;
-import drc.data.Profile;
-import drc.data.Texture;
-import drc.utils.Common;
-import drc.core.GL in WebGL;
+import drcJS.math.Matrix;
+import drcJS.core.Context;
+import drcJS.display.Drawable;
+import drcJS.data.Profile;
+import drcJS.data.Texture;
+import drcJS.utils.Common;
+import drcJS.core.GL in WebGL;
+import haxe.io.Float32Array;
 
 class Stage extends Drawable {
 

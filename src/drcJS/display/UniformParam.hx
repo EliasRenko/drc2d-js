@@ -1,9 +1,9 @@
-package drc.display;
+package drcJS.display;
 
-import drc.display.UniformFormat;
+import drcJS.display.UniformFormat;
 import haxe.ds.Either;
-import drc.utils.OneOf;
-import drc.core.GL;
+import drcJS.utils.OneOf;
+import drcJS.core.GL;
 
 class UniformParam<T> {
 

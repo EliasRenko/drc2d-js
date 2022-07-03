@@ -1,9 +1,9 @@
-package drc.objects;
+package drcJS.objects;
 
-import drc.math.Vector4;
+import drcJS.math.Vector4;
 import haxe.io.Float32Array;
-import drc.math.Matrix;
-import drc.utils.Common;
+import drcJS.math.Matrix;
+import drcJS.utils.Common;
 
 class Camera {
 

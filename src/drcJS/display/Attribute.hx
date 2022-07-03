@@ -1,7 +1,7 @@
-package drc.display;
+package drcJS.display;
 
-import drc.display.AttributeFormat;
-import drc.display.Vertex;
+import drcJS.display.AttributeFormat;
+import drcJS.display.Vertex;
 
 class Attribute {
 

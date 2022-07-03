@@ -1,7 +1,7 @@
-package drc.display;
+package drcJS.display;
 
-import drc.display.UniformFormat;
-import drc.core.GL;
+import drcJS.display.UniformFormat;
+import drcJS.core.GL;
 
 class Uniform {
 	

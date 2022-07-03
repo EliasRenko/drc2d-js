@@ -1,10 +1,10 @@
-package drc.data;
+package drcJS.data;
 
-import drc.utils.Color;
-import drc.math.Rectangle;
-import drc.core.Buffers;
-import drc.utils.Common;
-import drc.core.GL;
+import drcJS.utils.Color;
+import drcJS.math.Rectangle;
+import drcJS.utils.Common;
+import drcJS.core.GL;
+import haxe.io.UInt8Array;
 
 class Texture {
 
@@ -149,7 +149,7 @@ class Texture {
         Common.context.loadTexture(__width, __height, __bytesPerPixel, null);
     }
 
-    public function copyPixels(sourceTexture:drc.data.Texture, x:Int, y:Int, width:UInt, height:UInt):Void {
+    public function copyPixels(sourceTexture:drcJS.data.Texture, x:Int, y:Int, width:UInt, height:UInt):Void {
         
         if (bytes == null) return;
 
@@ -202,7 +202,7 @@ class Texture {
         upload(bytes, bytesPerPixel, __width, __height);
     }
 
-    public function copyPixels2(sourceTexture:drc.data.Texture, x:Int, y:Int, width:UInt, height:UInt, x2:Int, y2:Int):Void {
+    public function copyPixels2(sourceTexture:drcJS.data.Texture, x:Int, y:Int, width:UInt, height:UInt, x2:Int, y2:Int):Void {
 
         if (bytes == null) return;
 

@@ -1,7 +1,7 @@
-package drc.display;
+package drcJS.display;
 
-import drc.utils.Common;
-import drc.data.Profile;
+import drcJS.utils.Common;
+import drcJS.data.Profile;
 import haxe.Json;
 
 class Charmap extends Tilemap {

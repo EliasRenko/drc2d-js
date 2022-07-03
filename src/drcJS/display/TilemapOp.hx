@@ -1,10 +1,10 @@
-package drc.display;
+package drcJS.display;
 
-import drc.data.Texture;
-import drc.data.Profile;
-import drc.display.Drawable;
-import drc.display.Tile;
-import drc.part.RecycleList;
+import drcJS.data.Texture;
+import drcJS.data.Profile;
+import drcJS.display.Drawable;
+import drcJS.display.Tile;
+import drcJS.part.RecycleList;
 
 class TilemapOp extends Drawable {
 

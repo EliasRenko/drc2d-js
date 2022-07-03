@@ -1,6 +1,6 @@
-package drc.part;
+package drcJS.part;
 
-import drc.part.Object;
+import drcJS.part.Object;
 
 class List<T:Object> {
 	

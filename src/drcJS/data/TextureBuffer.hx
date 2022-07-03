@@ -1,4 +1,4 @@
-package drc.data;
+package drcJS.data;
 
 class TextureBuffer {
 

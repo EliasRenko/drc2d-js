@@ -1,7 +1,7 @@
-package drc.display;
+package drcJS.display;
 
-import drc.display.Tile;
-import drc.display.TextAlign;
+import drcJS.display.Tile;
+import drcJS.display.TextAlign;
 
 class Text extends Graphic {
 
@@ -203,7 +203,7 @@ class Text extends Graphic {
 			
 			//** Throw error!
 			
-			//DrcConsole.showTrace("Class: " + className + " with string " + __text + ", cannot be aligned properly.");
+			//drcJSConsole.showTrace("Class: " + className + " with string " + __text + ", cannot be aligned properly.");
 		}
 		
 		#end // ------

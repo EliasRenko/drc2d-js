@@ -1,4 +1,4 @@
-package drc.format;
+package drcJS.format;
 
 class DP2 {
     

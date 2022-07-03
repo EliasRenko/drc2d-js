@@ -1,13 +1,13 @@
-package drc.display;
+package drcJS.display;
 
-import drc.data.Indices;
-import drc.objects.State;
-import drc.display.Graphic;
-import drc.data.Profile;
-import drc.data.Texture;
-import drc.math.Matrix;
-import drc.display.Shading;
-import drc.display.UniformParam;
+import drcJS.data.Indices;
+//import drcJS.objects.State;
+import drcJS.display.Graphic;
+import drcJS.data.Profile;
+import drcJS.data.Texture;
+import drcJS.math.Matrix;
+import drcJS.display.Shading;
+import drcJS.display.UniformParam;
 
 typedef BlendFactors = {
 	
@@ -73,7 +73,7 @@ class Drawable extends Graphic {
 	
 	/** @private **/ public var __indicesToRender:UInt = 0;
 	
-	/** @private **/ private var __state:State;
+	/** @private **/ // private var __state:State;
 
 	public function new(profile:Profile) {
 
@@ -137,7 +137,7 @@ class Drawable extends Graphic {
 
 	public function remove():Void {
 
-		__state.removeGraphic(this);
+		// __state.removeGraphic(this);
 
 		super.release();
 	}
