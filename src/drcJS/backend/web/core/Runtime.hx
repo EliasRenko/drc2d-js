@@ -9,8 +9,10 @@ import drcJS.core.EventDispacher;
 import drcJS.utils.Common;
 import drcJS.input.Keyboard;
 import drcJS.input.Mouse;
+import src.impl.IRuntime;
+import drcJS.backend.web.system.Window;
 
-class Runtime {
+class Runtime extends EventDispacher<Runtime> implements IRuntime {
 
     // ** Publics.
 
@@ -36,7 +38,7 @@ class Runtime {
 
     /** @private **/ private var __name:String = 'Web';
 
-    /** @private **/ private var __window:drcJS.backend.web.system.Window;
+    /** @private **/ private var __window:Window;
 
     ///** @private **/ private var __event:EventDispacher<Float>;
 
@@ -49,6 +51,8 @@ class Runtime {
     private var view:js.html.Window;
 
     public function new() {
+
+        super();
 
         __active = true;
 
@@ -65,9 +69,9 @@ class Runtime {
 
         __mouse = new BackendMouse();
 
-        __input = new Input(this);
+        //__input = new Input(this);
 
-		Common.input = __input;
+		//Common.input = __input;
 
         if (js.Browser.navigator.getGamepads != null) {
 
@@ -125,7 +129,7 @@ class Runtime {
 
     private function __initVideo():Void {
 
-        __window = new drcJSJS.system.Window();
+        __window = new Window();
 
         __window.innerData = js.Browser.document.createCanvasElement();
 
@@ -189,7 +193,7 @@ class Runtime {
         js.Browser.window.requestAnimationFrame(__loop);
     }
 
-    private function __loop(timestamp:Float):Void {
+    public function __loop(timestamp:Float):Void {
 
         // ** Gamepads poll.
 
@@ -197,7 +201,7 @@ class Runtime {
 
         // **
 
-        __event.dispatchEvent(0, 0);
+        dispatchEvent(this, 1);
 
         js.Browser.window.requestAnimationFrame(__loop);
     }
@@ -212,11 +216,6 @@ class Runtime {
 
         return __active;
     }
-
-    private function get_event():EventDispacher<Float> {
-
-		return __event;
-	}
 
     private function get_input():Input {
         

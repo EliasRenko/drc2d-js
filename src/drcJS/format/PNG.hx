@@ -36,7 +36,7 @@ enum Chunk {
     
     CPalette( b : haxe.io.Bytes );
     
-	CUnknown( id : String, data : haxe.io.Bytes );
+	CUnknown( id : String, data : Bytes);
 }
 
 class PNG {
@@ -45,7 +45,7 @@ class PNG {
 
     public var data:List<Chunk>;
 
-    public function new(input:haxe.io.Input) {
+    public function new(input:Input) {
 
         
 

@@ -4,7 +4,7 @@ import drcJS.core.Context;
 import drcJS.system.Input;
 import drcJS.backend.web.system.Window;
 import drcJS.display.Stage;
-import drcJS.utils.Resources;
+import drc.utils.Resources;
 
 class Common {
 

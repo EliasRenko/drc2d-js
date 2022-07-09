@@ -11,6 +11,7 @@ import js.html.XMLHttpRequestResponseType;
 import haxe.io.Bytes;
 import haxe.io.BytesInput;
 import haxe.io.Input;
+import haxe.io.UInt8Array;
 
 class Resources {
 
@@ -46,7 +47,7 @@ class Resources {
 
         __request.load(function(status, response) {
 
-            func(status, new haxe.io.UInt8Array(response));
+            func(status, new UInt8Array(response));
 
         }, XMLHttpRequestResponseType.ARRAYBUFFER);
     }
