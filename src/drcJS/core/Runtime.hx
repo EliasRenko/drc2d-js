@@ -1,6 +1,6 @@
 package drcJS.core;
 
-import src.core.EventDispacher;
+import EventDispacher;
 
 import js.Browser;
 import js.html.DOMRect;
@@ -13,7 +13,7 @@ import drcJS.input.Keyboard;
 import drcJS.input.Mouse;
 import drcJS.backend.web.system.Window;
 
-class Runtime extends src.core.EventDispacher<Float> {
+class Runtime extends EventDispacher<Float> {
 
     // ** Publics.
 
