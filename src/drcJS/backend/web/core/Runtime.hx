@@ -9,10 +9,9 @@ import drcJS.core.EventDispacher;
 import drcJS.utils.Common;
 import drcJS.input.Keyboard;
 import drcJS.input.Mouse;
-import src.impl.IRuntime;
 import drcJS.backend.web.system.Window;
 
-class Runtime extends EventDispacher<Runtime> implements IRuntime {
+class Runtime extends EventDispacher<Runtime> {
 
     // ** Publics.
 
@@ -185,7 +184,7 @@ class Runtime extends EventDispacher<Runtime> implements IRuntime {
             return;
         }
 
-        js.Browser.document.body.appendChild(__window.innerData);
+        // js.Browser.document.body.appendChild(__window.innerData);
     }
 
     public function requestLoopFrame():Void {

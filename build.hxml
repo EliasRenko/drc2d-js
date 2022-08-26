@@ -3,3 +3,6 @@
 -js bin/main.js
 
 -lib cascade
+-lib haxe-commands
+-lib haxe-events
+-lib haxe-unit
