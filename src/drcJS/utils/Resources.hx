@@ -1,10 +1,8 @@
 package drcJS.utils;
 
-//import js.lib.Uint8Array;
-//import haxe.io.UInt8Array;
+import haxe.io.ArrayBufferView;
+import haxe.io.UInt8Array;
 import js.html.URL;
-#if js
-
 import drcJS.utils.HTTPRequest;
 import js.html.File;
 import js.html.XMLHttpRequestResponseType;
@@ -41,15 +39,30 @@ class Resources {
         __request.load(func, XMLHttpRequestResponseType.TEXT);
     }
 
-    public static function loadTexture(path:String, func:(Int, Dynamic)->Void):Void {
+    // public static function loadTextureOld(path:String, func:(Int, UInt8Array)->Void):Void {
+
+    //     var __request:HTTPRequest = new HTTPRequest(path, '');
+
+    //     __request.load(function(status, response) {
+
+
+
+    //         func(status, new UInt8Array(response));
+
+    //     }, XMLHttpRequestResponseType.ARRAYBUFFER);
+    // }
+
+    public static function loadTexture(path:String, func:(Int, UInt8Array)->Void):Void {
 
         var __request:HTTPRequest = new HTTPRequest(path, '');
 
         __request.load(function(status, response) {
 
-            func(status, new UInt8Array(response));
+            var _arrayBuffer:UInt8Array = new haxe.io.UInt8Array(response);
 
-        }, XMLHttpRequestResponseType.ARRAYBUFFER);
+            func(status, _arrayBuffer);
+
+        }, XMLHttpRequestResponseType.ARRAYBUFFER, true);
     }
 
     public static function loadProfile(path:String, func:(Int, Dynamic)->Void):Void {
@@ -59,5 +72,3 @@ class Resources {
         __request.load(func, XMLHttpRequestResponseType.TEXT);
     }
 }
-
-#end

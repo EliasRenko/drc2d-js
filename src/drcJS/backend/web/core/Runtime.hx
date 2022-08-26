@@ -9,10 +9,9 @@ import drcJS.core.EventDispacher;
 import drcJS.utils.Common;
 import drcJS.input.Keyboard;
 import drcJS.input.Mouse;
-import src.impl.IRuntime;
 import drcJS.backend.web.system.Window;
 
-class Runtime extends EventDispacher<Runtime> implements IRuntime {
+class Runtime extends EventDispacher<Runtime> {
 
     // ** Publics.
 
@@ -114,7 +113,7 @@ class Runtime extends EventDispacher<Runtime> implements IRuntime {
 
         });
 
-        attachWindow("drcJS2D_cont");
+        attachWindow();
 
         requestLoopFrame();
     }
@@ -166,14 +165,12 @@ class Runtime extends EventDispacher<Runtime> implements IRuntime {
         
     }
 
-    public function attachWindow(name:String):Void {
+    public function attachWindow():Void {
 
-        var element = js.Browser.document.getElementById("container");
+        var element = js.Browser.document.getElementById("root");
 
         if (element != null) {
          
-            
-
             element.appendChild(__window.innerData);
 
             
