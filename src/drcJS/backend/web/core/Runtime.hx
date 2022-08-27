@@ -113,7 +113,7 @@ class Runtime extends EventDispacher<Runtime> {
 
         });
 
-        attachWindow("drcJS2D_cont");
+        attachWindow();
 
         requestLoopFrame();
     }
@@ -165,14 +165,12 @@ class Runtime extends EventDispacher<Runtime> {
         
     }
 
-    public function attachWindow(name:String):Void {
+    public function attachWindow():Void {
 
-        var element = js.Browser.document.getElementById("container");
+        var element = js.Browser.document.getElementById("root");
 
         if (element != null) {
          
-            
-
             element.appendChild(__window.innerData);
 
             

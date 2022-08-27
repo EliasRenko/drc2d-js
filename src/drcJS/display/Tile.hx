@@ -158,7 +158,9 @@ class Tile extends Graphic {
 
         if (rect == null) {
 
-            rect = parentTilemap.tileset.regions[64];
+            // rect = parentTilemap.tileset.regions[64];
+
+            throw 'Invalid region id for tile!';
         }
 
         vertices[parentTilemap.shadings["u"].positions[0]] = rect[0] / parentTilemap.textures[0].width;
