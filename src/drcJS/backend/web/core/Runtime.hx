@@ -194,7 +194,7 @@ class Runtime extends EventDispacher<Runtime> {
 
         // ** Gamepads poll.
 
-        trace('_loop');
+        //trace('_loop');
 
         // **
 

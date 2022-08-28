@@ -102,6 +102,11 @@ class Promise<T> extends EventDispacher<Promise<T>> {
 
                 // ** On error.
 
+                promises[i].onReject(function(promise:Promise<U>, type:UInt) {
+
+                    _reject();
+                });
+
             }
 
             //resolve(new Array<U>());
